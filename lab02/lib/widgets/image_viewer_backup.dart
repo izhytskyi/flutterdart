@@ -32,7 +32,7 @@ class _ImageViewerState extends State<ImageViewer> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Image.asset(widget.images[currentIndex]),
+        Image.asset(widget.images[currentIndex]), // Змінено Image.network на Image.asset
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
